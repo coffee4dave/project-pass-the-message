@@ -1,0 +1,115 @@
+:root {
+    --bgcolor: #F2CB05;
+    --bgcolor2: #E9EEF2;
+    --bgcolor3: #F28705;
+    --textcolor: black;
+    --color4: #B36404;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat; */
+    background-color: var(--bgcolor);
+}
+
+button {
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+
+}
+
+.btn-success {
+    color: #fff;
+    background-color: var(--bgcolor3);
+    border-color: var(--bgcolor3);
+}
+
+.btn-success:focus,
+.btn-success:active,
+.btn-success:hover {
+    color: #fff;
+    background-color: var(--color4);
+    border-color: var(--color4);
+}
+
+.btn-success:not(:disabled):not(.disabled).active,
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: var(--color4);
+    border-color: var(--color4);
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    color: #fff;
+    background-color: var(--color4);
+    border-color: var(--color4);
+    box-shadow: 0 0 0 0.2rem rgba(140, 157, 144, 0.5);
+
+}
+
+button:focus {
+    outline: 0;
+    outline: 0 -webkit-focus-ring-color;
+
+}
+
+h4 {
+    text-align: center;
+    color: red;
+}
+
+#alert {
+    height: 2rem;
+}
+
+.alert-message {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.text-capitalize {
+    text-transform: uppercase;
+}
+
+#form-container {
+    background-color: var(--bgcolor2);
+    padding: 2rem 2rem;
+    border-radius: 15px;
+}
+
+#message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color4);
+}
+
+
+input,
+textarea {
+    font: 1.4em/1.5em "handwriting", cursive, sans-serif;
+    padding: 0 10px;
+    margin: 0;
+    width: 40%;
+    background: var(--bgcolor2);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input:focus,
+textarea:focus,
+input:hover,
+textarea:hover {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 15px;
+}
